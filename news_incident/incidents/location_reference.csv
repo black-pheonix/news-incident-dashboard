@@ -1,0 +1,26 @@
+state,district,place_name,place_type,latitude,longitude
+Andhra Pradesh,NTR,Vijayawada,city,16.5062,80.6480
+Andhra Pradesh,Visakhapatnam,Visakhapatnam,city,17.6868,83.2185
+Andhra Pradesh,Guntur,Guntur,city,16.3067,80.4365
+Andhra Pradesh,Tirupati,Tirupati,city,13.6288,79.4192
+Andhra Pradesh,Kurnool,Kurnool,city,15.8281,78.0373
+Andhra Pradesh,East Godavari,Rajahmundry,city,17.0005,81.8040
+Andhra Pradesh,Krishna,Machilipatnam,city,16.1875,81.1389
+Andhra Pradesh,Sri Sathya Sai,Puttaparthi,town,14.1667,77.8117
+Andhra Pradesh,Anantapur,Anantapur,city,14.6819,77.6006
+Andhra Pradesh,Srikakulam,Srikakulam,city,18.2949,83.8938
+Telangana,Hyderabad,Hyderabad,city,17.3850,78.4867
+Telangana,Rangareddy,Gachibowli,locality,17.4401,78.3489
+Telangana,Medchal–Malkajgiri,Secunderabad,city,17.4399,78.4983
+Telangana,Warangal,Warangal,city,17.9689,79.5941
+Telangana,Karimnagar,Karimnagar,city,18.4386,79.1288
+Telangana,Nizamabad,Nizamabad,city,18.6725,78.0941
+Telangana,Khammam,Khammam,city,17.2473,80.1514
+Telangana,Mahabubnagar,Mahabubnagar,city,16.7375,78.0081
+Telangana,Siddipet,Siddipet,city,18.1018,78.8520
+Karnataka,Bengaluru Urban,Bengaluru,city,12.9716,77.5946
+Tamil Nadu,Chennai,Chennai,city,13.0827,80.2707
+Maharashtra,Mumbai City,Mumbai,city,19.0760,72.8777
+Delhi,New Delhi,New Delhi,city,28.6139,77.2090
+Odisha,Khordha,Bhubaneswar,city,20.2961,85.8245
+West Bengal,Kolkata,Kolkata,city,22.5726,88.3639

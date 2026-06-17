@@ -1,0 +1,54 @@
+{
+  "queries": [
+    {
+      "name": "AP Fire Incidents",
+      "query": "fire accident Andhra Pradesh",
+      "default_category": "Fire"
+    },
+    {
+      "name": "Telangana Road Accidents",
+      "query": "road accident Telangana",
+      "default_category": "Road Accident"
+    },
+    {
+      "name": "AP Flood Incidents",
+      "query": "flood Andhra Pradesh",
+      "default_category": "Flood / Rain Damage"
+    },
+    {
+      "name": "India Infrastructure Failures",
+      "query": "bridge collapse India",
+      "default_category": "Infrastructure Failure"
+    },
+    {
+      "name": "Food Safety Incidents",
+      "query": "food poisoning Telangana",
+      "default_category": "Health / Food Safety"
+    },
+    {
+      "name": "Power Outages Hyderabad",
+      "query": "power outage Hyderabad",
+      "default_category": "Power Outage"
+    },
+    {
+      "name": "Train Accidents AP",
+      "query": "train accident Andhra Pradesh",
+      "default_category": "Public Safety"
+    },
+    {
+      "name": "Factory Fire Telangana",
+      "query": "factory fire Telangana",
+      "default_category": "Fire"
+    },
+    {
+      "name": "Building Collapse India",
+      "query": "building collapse India",
+      "default_category": "Infrastructure Failure"
+    },
+    {
+      "name": "Public Safety Telangana",
+      "query": "public safety incident Telangana",
+      "default_category": "Public Safety"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+db.sqlite3
+node_modules/
+.next/
+*.env.local
+news_incident/news_incident/__pycache__/
+news_incident/incidents/__pycache__/

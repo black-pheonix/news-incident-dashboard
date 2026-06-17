@@ -1,0 +1,101 @@
+{
+  "categories": {
+    "Fire": [
+      "fire",
+      "blaze",
+      "explosion",
+      "blast",
+      "burnt",
+      "factory fire",
+      "warehouse fire"
+    ],
+    "Flood / Rain Damage": [
+      "flood",
+      "rain",
+      "heavy rain",
+      "inundation",
+      "waterlogging",
+      "overflow",
+      "breach"
+    ],
+    "Road Accident": [
+      "accident",
+      "road accident",
+      "crash",
+      "collision",
+      "hit",
+      "truck",
+      "bus",
+      "car",
+      "bike"
+    ],
+    "Infrastructure Failure": [
+      "collapse",
+      "bridge",
+      "building collapse",
+      "road cave-in",
+      "wall collapse",
+      "flyover"
+    ],
+    "Power Outage": [
+      "power cut",
+      "outage",
+      "electricity",
+      "transformer",
+      "substation",
+      "power supply"
+    ],
+    "Health / Food Safety": [
+      "food poisoning",
+      "illness",
+      "hospitalised",
+      "hospitalized",
+      "contamination",
+      "diarrhoea",
+      "diarrhea"
+    ],
+    "Public Safety": [
+      "violence",
+      "protest",
+      "attack",
+      "stampede",
+      "law and order",
+      "clash"
+    ]
+  },
+  "severity": {
+    "Critical": [
+      "dead",
+      "death",
+      "killed",
+      "fatal",
+      "many feared",
+      "major explosion",
+      "collapsed"
+    ],
+    "High": [
+      "injured",
+      "hospitalised",
+      "hospitalized",
+      "evacuated",
+      "major",
+      "severe",
+      "trapped"
+    ],
+    "Medium": [
+      "disrupted",
+      "affected",
+      "traffic jam",
+      "power cut",
+      "waterlogging",
+      "delayed"
+    ],
+    "Low": [
+      "minor",
+      "small",
+      "no casualties",
+      "contained",
+      "under control"
+    ]
+  }
+}

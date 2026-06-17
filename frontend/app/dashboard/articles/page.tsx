@@ -39,8 +39,9 @@ export default function ArticlesPage() {
                 ...(search ? { search } : {})
             });
 
+            const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000/api';
             const response = await fetch(
-                `http://127.0.0.1:8000/api/articles/?${params}`,
+                `${API_BASE}/articles/?${params}`,
                 { headers: { Authorization: `Bearer ${token}` } }
             );
 

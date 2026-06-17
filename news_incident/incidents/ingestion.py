@@ -92,7 +92,7 @@ def store_article(article: dict) -> RawArticle | None:
             url=article['url'],
             defaults={
                 'title': article['title'],
-                'source': article['source'],
+                'source': article['source'][:499],
                 'published_at': parse_datetime(article['published_at']),
                 'description': strip_html(article['description']),
                 'matched_query': article['matched_query'],

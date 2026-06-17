@@ -3,7 +3,7 @@ from django.db import models
 
 class RawArticle(models.Model):
     title = models.TextField()
-    source = models.CharField(max_length=255)
+    source = models.CharField(max_length=500)
     published_at = models.DateTimeField(null=True, blank=True)
     url = models.URLField(unique=True)  
     description = models.TextField(blank=True)
@@ -49,7 +49,8 @@ class Incident(models.Model):
     source_article = models.ForeignKey(
         RawArticle,
         on_delete=models.CASCADE,
-        related_name='incidents'
+        related_name='incidents',
+        
     )
     category = models.CharField(max_length=100, choices=CATEGORY_CHOICES)
     summary = models.TextField()

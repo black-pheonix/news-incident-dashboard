@@ -35,7 +35,7 @@ def build_rss_url(query: str) -> str:
     return f"https://news.google.com/rss/search?q={encoded}&hl=en-IN&gl=IN&ceid=IN:en"
 
 
-def fetch_feed(query_config: dict) -> list:
+def fetch_feed(query_config: dict, limit: int = 20) -> list:
     """Fetch and parse a Google News RSS feed."""
     url = build_rss_url(query_config['query'])
     print(f"Fetching: {query_config['name']} → {url}")
@@ -44,7 +44,7 @@ def fetch_feed(query_config: dict) -> list:
         feed = feedparser.parse(url)
         articles = []
 
-        for entry in feed.entries:
+        for entry in feed.entries[:limit]:
             articles.append({
                 'title': entry.get('title', ''),
                 'url': entry.get('link', ''),

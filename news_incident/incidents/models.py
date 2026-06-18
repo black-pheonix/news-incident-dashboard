@@ -5,7 +5,7 @@ class RawArticle(models.Model):
     title = models.TextField()
     source = models.CharField(max_length=500)
     published_at = models.DateTimeField(null=True, blank=True)
-    url = models.URLField(unique=True)  
+    url = models.URLField(max_length=2000, unique=True)  
     description = models.TextField(blank=True)
     matched_query = models.CharField(max_length=255, blank=True)
     raw_payload = models.JSONField(default=dict)

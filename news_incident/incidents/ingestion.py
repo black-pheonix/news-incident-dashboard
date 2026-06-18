@@ -44,7 +44,7 @@ def fetch_feed(query_config: dict) -> list:
         feed = feedparser.parse(url)
         articles = []
 
-        for entry in feed.entries[:10]:
+        for entry in feed.entries[:2]:
             articles.append({
                 'title': entry.get('title', ''),
                 'url': entry.get('link', ''),
@@ -87,7 +87,7 @@ def store_article(article: dict) -> RawArticle | None:
                 serializable_payload[k] = v
             except (TypeError, ValueError):
                 serializable_payload[k] = str(v)
-
+        print(f"Saving Article: {article['title'][:50]}")
         obj, created = RawArticle.objects.get_or_create(
             url=article['url'],
             defaults={
@@ -99,6 +99,7 @@ def store_article(article: dict) -> RawArticle | None:
                 'raw_payload': serializable_payload,
             }
         )
+        print("Article Saved")
 
         if created:
             return obj

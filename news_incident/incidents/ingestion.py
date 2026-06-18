@@ -44,7 +44,7 @@ def fetch_feed(query_config: dict) -> list:
         feed = feedparser.parse(url)
         articles = []
 
-        for entry in feed.entries[:1]:
+        for entry in feed.entries[:10]:
             articles.append({
                 'title': entry.get('title', ''),
                 'url': entry.get('link', ''),

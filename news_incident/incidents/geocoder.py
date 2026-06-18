@@ -60,7 +60,7 @@ def geocode_if_needed(location_result: dict) -> dict:
     if not location_text:
         return location_result
 
-    time.sleep(1)
+    # time.sleep(1)
 
     geo = geocode(location_text)
     location_result['latitude'] = geo['latitude']

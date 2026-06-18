@@ -1,1 +1,1 @@
-web: gunicorn news_incident.wsgi --log-file - --timeout 120 --workers 2
+web: gunicorn news_incident.wsgi --log-file - --timeout 600 --workers 1
